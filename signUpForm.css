@@ -19,32 +19,21 @@ body > div{
   color:var(--default-color);
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 650px) {
   #image-div {
       display: none;
   }
 }
 
-#image-div{
+#image-div {
   flex: 1;
-  overflow: hidden;
   display: flex;
-  justify-content: end;
-  position:relative
+  align-items: center;
+  justify-content: center; /* Center horizontally */
 }
 
-#overlay{
-  position:fixed;
-  text-align: center;
-  margin-top: 20%;
-  margin-right: 10%;
-  color:white;
-}
-
-#forest{
-  margin: 0px;
-  padding: 0px;
-  max-height: 100%;
+#logo{
+  width:90%;
 }
 
 #content{
