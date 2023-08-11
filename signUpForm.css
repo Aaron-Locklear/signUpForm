@@ -42,7 +42,15 @@ body > div{
 
 #form-collection{
   flex:2;
+  display: flex;
+  flex-direction: column;
 }
+
+.row{
+  flex:1;
+}
+
+
 
 #submit{
   flex:1;
