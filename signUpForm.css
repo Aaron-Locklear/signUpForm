@@ -35,6 +35,7 @@ body > div{
 
 #logo{
   width:90%;
+  filter : drop-shadow(3px 5px 2px var(--default-color));
 }
 
 #content{
