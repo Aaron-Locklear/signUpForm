@@ -46,19 +46,40 @@ body > div{
   flex-direction: column;
 }
 
-.row{
+.form-row{
+  padding-top: 1rem;
   flex:1;
+  display: flex;
+  justify-content: space-around;
 }
 
+.cell{
+  display: flex;
+  flex-direction: column;
+  width:40%;
+  font-size: .8em;
+  justify-content: space-between;
+}
 
+.cell > input{
+  border-color: var(--default-color);
+  background:transparent;
+  border-radius: 1rem;
+  border-style: solid;
+}
+
+input:invalid{
+  border-color: var(--error-color);
+}
 
 #submit{
   flex:1;
 }
 
 #submit-button{
-  width: 60%;
-  margin-left: 20%;
+  width: 10rem;
+  font-size:1rem;
+  margin:auto;
   border-radius: 1rem;
   border-width: .2rem;
   border-color: var(--default-color);
