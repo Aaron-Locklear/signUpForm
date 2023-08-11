@@ -37,6 +37,7 @@ body > div{
 
 #header-text{
   flex:2;
+  text-align: center;
 }
 
 #form-collection{
